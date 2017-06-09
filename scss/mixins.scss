@@ -1,0 +1,5 @@
+//inline-block mixin
+@mixin inline {
+  display: inline-block;
+  vertical-align: middle;
+}
