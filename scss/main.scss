@@ -35,6 +35,13 @@ header {
   width: 100%;
   position: absolute;
   z-index: -1;
+  .owl-carousel {
+    .owl-item {
+      img {
+        max-height: 840px;
+      }
+    }
+  }
 }
 .main-cover {
   position: relative;
