@@ -53,6 +53,12 @@ $(document).ready(function() {
     //     }
     // })
 
+    $(window).resize(function () {
+        if ($(window).height() < 800) {
+            $("#main_block").css("overflow-y","auto");
+        }
+    });
+
 
     //Sticky footer
 
