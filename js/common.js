@@ -44,15 +44,46 @@ $(document).ready(function() {
 
 
     //window height reize function
-    $(window).on('load resize', function(){
-        var main_window = $(window).height();
-        if(main_window < 800) {
-            $("#main_block").css("overflow-y","auto");
-        } else {
+    // $(window).on('load resize', function(){
+    //     var main_window = $(window).height();
+    //     if(main_window < 800) {
+    //         $("#main_block").css("overflow-y","auto");
+    //     } else {
+    //
+    //     }
+    // })
 
-        }
-    })
 
+    //Sticky footer
+
+    // var footerHeight = 0,
+    //     footerTop = 0,
+    //     $footer = $("#footer");
+    //
+    // positionFooter();
+    //
+    // function positionFooter() {
+    //
+    //     footerHeight = $footer.height();
+    //     footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
+    //
+    //     if ( ($(document.body).height()+footerHeight) < $(window).height()) {
+    //         $footer.css({
+    //             position: "absolute"
+    //         }).animate({
+    //             top: footerTop
+    //         })
+    //     } else {
+    //         $footer.css({
+    //             position: "static"
+    //         })
+    //     }
+    //
+    // }
+    //
+    // $(window)
+    //     .scroll(positionFooter)
+    //     .resize(positionFooter)
 
     // $(document).ready(function() {
     //     $('.owl-carousel').owlCarousel({

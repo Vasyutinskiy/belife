@@ -256,6 +256,7 @@ footer {
   max-width: $main-cover-max-width;
   max-height: $footer-max-heigth;
   background: $main-bg-color;
+  //height: 85px;
   width: 100%;
   position: fixed;
   margin-left: auto;
@@ -272,12 +273,15 @@ footer {
   }
   span {
     @include inline;
+    z-index: 5;
   }
   .left_foot_part {
     float: left;
     padding-top: 5px;
+    //z-index: 5;
   }
   .right_foot_part {
     float: right;
+    //z-index: 5;
   }
 }
